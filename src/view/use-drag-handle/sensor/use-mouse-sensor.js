@@ -209,10 +209,10 @@ export default function useMouseSensor(args: Args): OnMouseDown {
           preventStandardKeyEvents(event);
         },
       },
-      {
-        eventName: 'resize',
-        fn: cancel,
-      },
+      // {
+      //   eventName: 'resize',
+      //   fn: cancel,
+      // },
       {
         eventName: 'scroll',
         // ## Passive: true

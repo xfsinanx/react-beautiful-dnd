@@ -194,10 +194,10 @@ export default function useTouchSensor(args: Args): OnTouchStart {
         fn: cancel,
       },
       // some devices fire resize if the orientation changes
-      {
-        eventName: 'resize',
-        fn: cancel,
-      },
+      // {
+      //   eventName: 'resize',
+      //   fn: cancel,
+      // },
       // ## Passive: true
       // For scroll events we are okay with eventual consistency.
       // Passive scroll listeners is the default behavior for mobile

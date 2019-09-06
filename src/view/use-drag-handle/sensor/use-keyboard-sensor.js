@@ -101,10 +101,10 @@ export default function useKeyboardSensor(args: Args): OnKeyDown {
         fn: cancel,
       },
       // resizing the browser kills a drag
-      {
-        eventName: 'resize',
-        fn: cancel,
-      },
+      // {
+      //   eventName: 'resize',
+      //   fn: cancel,
+      // },
       // kill if the user is using the mouse wheel
       // We are not supporting wheel / trackpad scrolling with keyboard dragging
       {
